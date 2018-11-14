@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.objectsolutions.sudoku.MainActivity">
+
+    <GridLayout
+        android:id="@+id/gl"
+        android:rowCount="10"
+        android:background="#000000"
+        android:columnCount="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </GridLayout>
+
+    <GridLayout
+        android:paddingLeft="20px"
+        android:paddingRight="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+            <Button
+                android:layout_marginTop="75px"
+                android:layout_marginBottom="50px"
+                android:layout_gravity="start|end|fill_horizontal"
+                android:id="@+id/clearButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clearIt"
+                android:text="New Puzzle"/>
+            <Button
+                android:layout_marginTop="75px"
+                android:layout_marginBottom="50px"
+                android:id="@+id/setButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setIt"
+                android:text="Set &amp; Start"/>
+
+            <Button
+                android:layout_gravity="start|end|fill_horizontal"
+                android:layout_marginBottom="50px"
+                android:id="@+id/loadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="loadIt"
+                android:text="Load Saved"/>
+            <Button
+                android:layout_marginBottom="50px"
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="saveIt"
+                android:text="Save State"/>
+
+            <Button
+                android:layout_gravity="start|end|fill_horizontal"
+                android:layout_marginBottom="50px"
+                android:id="@+id/helpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="helpMe"
+
+                android:text="Help"/>
+            <Button
+                android:layout_marginBottom="20px"
+                android:id="@+id/checkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkIt"
+
+                android:text="Check"/>
+
+        <Button
+            android:layout_marginTop="260px"
+            android:layout_gravity="start|end|fill_horizontal"
+            android:id="@+id/solveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="solveIt"
+
+            android:text="Solve"/>
+        <Button
+            android:layout_marginTop="260px"
+            android:layout_gravity="start|end|fill_horizontal"
+            android:id="@+id/demoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="loadDemo"
+
+            android:text="Demo"/>
+    </GridLayout>
+
+</LinearLayout>
