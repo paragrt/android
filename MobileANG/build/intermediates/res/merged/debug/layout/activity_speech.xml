@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:transitionGroup="true"
+
+                tools:context=".SpeechActivity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/myborder"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+
+        android:paddingTop="16dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Speech to Text"
+            android:textSize="35dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language:"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:entries="@array/country_arrays"
+                android:prompt="@string/country_prompt"
+                />
+
+            <Button
+                android:id="@+id/speak_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:onClick="startListeningFor"
+                android:text="Speech To TEXT"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Languages Available:"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"/>
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/country_arrays"
+                android:prompt="@string/country_prompt"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/speak_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="46dp"
+            android:hint="Your Spoken Words Show up here"
+            android:textColor="#00ff00"
+            android:textColorHint="#ffff23d1"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_marginBottom="20dp"
+        android:onClick="translate"
+        android:text="▼ TRANSLATE ▼"
+        android:textColor="#00FFFF"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/translate"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/myborder"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+
+        android:paddingTop="16dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Text to Speech"
+            android:textSize="35dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/speak_editText"
+
+                android:text="Language:"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/speak_editText"
+                android:layout_toRightOf="@+id/textview2"
+                android:entries="@array/country_arrays"
+                android:prompt="@string/country_prompt"
+                />
+
+            <Button
+                android:id="@+id/text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="TEXT To SPEECH"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/text_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp"
+            android:hint="The spoken words are translated and show up here"
+            android:textColor="#00ff00"
+            android:textColorHint="#ffff23d1"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/sensors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="go2Sensor"
+            android:text="Sensors"/>
+        <Button
+            android:id="@+id/go2frac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="go2Fractal"
+            android:text="Graphics"/>
+        <Button
+            android:id="@+id/go2sfdc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="go2sfdc"
+            android:text="Go To Salesforce"/>
+        <Button
+            android:id="@+id/showlanguages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showLangs"
+            android:text="Show Languages"/>
+        <Button
+            android:id="@+id/carrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playCarrom"
+            android:text="Carrom"/>
+
+    </LinearLayout>
+</RelativeLayout>

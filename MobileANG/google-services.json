@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "442444294657",
+    "project_id": "api-project-442444294657"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442444294657:android:0ba6b485cc7f8ff4",
+        "android_client_info": {
+          "package_name": "com.lfg.mobileang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM8Mlpu2Q-WW3u-RY63EoFXLXNKUhoPGs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_8e13d1f71f4e270e26f9a5d7d0f63465090864c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_477a2ded482c0d4c3577388a5325992725d411b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_4a2f7b1d6517b38b7a32e79124f17deed6b9edf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_18097cb7559dd12b24e6a76259e86857d8b21acf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_52fbd297e02d8136dadd6c3df6e26522ccb47659.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_2eb5b19658d1977aad78d35867aa8c982b91f9cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_59f69a7669bc041e0c216170a459931295b0aa4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3a6f54fedd82e7869c0ccced5df810d3c4eb9bc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_0151209f8ab5dbcee9e22a5b2944b366959fec10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_76a2fc0ece84a22baf318823a245adb695f9c098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_701941bc345a25330d305fd6b4d7973772f0bf4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_6b10474f337177fe293296f9760391f904c0281c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_16b927aa0dd2b2321d15d940863d62ef4fef4cda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_051a1cd9115d493c6a2505e590d9aaaafd8d935f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\paragrt\Desktop\Android\Carrom2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_92a444ea71c0dd83086f6fd0b8bcb1c67c9b2c1e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "C:\\Users\\paragrt\\Desktop\\Android\\Lab7_GraphicsLab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "C:\\Users\\paragrt\\Desktop\\Android\\Lab7_GraphicsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 43,
+                        "endOffset": 94
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 44,
+                    "endOffset": 139
+                },
+                "from": {
+                    "file": "C:\\Users\\paragrt\\Desktop\\Android\\Lab7_GraphicsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 44,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 144,
+                    "endColumn": 70,
+                    "endOffset": 210
+                },
+                "from": {
+                    "file": "C:\\Users\\paragrt\\Desktop\\Android\\Lab7_GraphicsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endColumn": 70,
+                        "endOffset": 293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 215,
+                    "endColumn": 70,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "C:\\Users\\paragrt\\Desktop\\Android\\Lab7_GraphicsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 70,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endColumn": 56,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "C:\\Users\\paragrt\\Desktop\\Android\\Lab7_GraphicsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 99,
+                        "endColumn": 56,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

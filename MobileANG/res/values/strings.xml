@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type">com.lfg.mobileang.login</string>
+    <string name="app_name"><b>SangKamya</b></string>
+    <string name="app_package">com.lfg.mobileang</string>
+    <string name="welcome">Welcome %s</string>
+    <string name="logout_button">Logout</string>
+    <string name="fetch_contacts_button">Fetch Websites</string>
+    <string name="fetch_accounts_button">Fetch Users</string>
+    <string name="clear_button">Clear</string>
+    <string name="hello_world">Speech Xlator</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="shape_prompt">Choose a Shape</string>
+    <string name="anghome">SKHome</string>
+
+    <string name="angapp_button">ANGAPP</string>
+    <string-array name="country_arrays">
+        <item>Hindi</item>
+        <item>Marathi</item>
+        <item>Bengali</item>
+        <item>Gujarati</item>
+
+        <item>Indian English</item>
+        <item>British English</item>
+        <item>American English</item>
+        <item>French</item>
+        <item>French Canadian</item>
+        <item>German</item>
+        <item>Urdu</item>
+
+    </string-array>
+    <string-array name="shapes_arrays">
+        <item>Fractal(Mandlebrot)</item>
+        <item>Triangle</item>
+        <item>Square</item>
+    </string-array>
+</resources>

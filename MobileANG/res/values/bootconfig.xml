@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="remoteAccessConsumerKey">3MVG9Oe7T3Ol0ea5aTQJ1rBZaBJ4XCpI5kGjxXnzF9j_6IwUK31FYLUzjgHx7Quzgs49HygfvEnuUQH.XKFKu</string>
+
+	
+	<string name="oauthRedirectURI">parag://notused.com</string>
+    <string-array name="oauthScopes">
+        <item>api</item>
+    </string-array>
+    <string name="androidPushNotificationClientId">740128431682</string>
+</resources>

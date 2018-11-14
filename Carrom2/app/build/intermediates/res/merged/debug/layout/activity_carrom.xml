@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CarromActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+
+        android:stretchColumns="1">
+        <TableRow android:textAlignment="center">
+            <TextView
+                android:layout_span="3"
+                android:background="@color/colorAccent"
+                android:textAlignment="center"
+                android:text="SCOREBOARD"
+                android:textColor="#000000"
+                android:textSize="36px" />
+        </TableRow>
+        <TableRow>
+            <TextView android:background="#444444"
+                android:text=""
+                android:padding="3dip" />
+            <TextView android:background="#444444"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Team Whites"
+                />
+            <TextView android:background="#444444"
+                android:text="Team Blacks"
+                android:gravity="right"
+                android:padding="3dip" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="CUMULATIVE SCORE"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView android:background="#555555"
+                android:text="26"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView android:background="#222222"
+                android:text="15"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="CURRENT GAME"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView android:background="#555555"
+                android:text="2"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView android:background="#222222"
+                android:text="5"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Double Tap to relocate striker, Flick the finger to shoot from any place."
+        android:textSize="25px"
+        />
+    <com.objectsolutions.carrom.CarromView
+        android:id="@+id/carromboard"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

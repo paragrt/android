@@ -1,0 +1,60 @@
+apply plugin: 'android'
+
+
+dependencies {
+
+    compile files('google-api-translate-java-0.98-SNAPSHOT-jar-with-dependencies.jar')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    sourceSets {
+
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        androidTest.setRoot('../test/TemplateAppTest')
+        androidTest {
+            java.srcDirs = ['../test/TemplateAppTest/src']
+            resources.srcDirs = ['../test/TemplateAppTest/src']
+            res.srcDirs = ['../test/TemplateAppTest/res']
+        }
+    }
+    defaultConfig {
+        applicationId "com.lfg.mobileang"
+        testApplicationId "com.salesforce.samples.templateapp.tests"
+        testInstrumentationRunner "com.salesforce.androidsdk.util.test.JUnitReportTestRunner"
+        versionCode 13
+        versionName "alpha 4"
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+afterEvaluate {
+    // Find all connected Android tests and ensure they log all passed tests. This keeps the Travis
+    // from timing out since executing tests are printed to the console.
+    tasks.matching { it.name ==~ /^connected.*AndroidTest$/ }*.logging*.setLevel(LogLevel.INFO)
+}
+
+buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+
+    }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="#454545"
+	android:id="@+id/root">
+
+	<include layout="@layout/header" />
+
+	<LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+
+	    <Button android:id="@+id/clear" android:layout_width="wrap_content"
+		      android:layout_height="wrap_content" android:background="@drawable/r2"
+		      android:onClick="onClearClick"
+		      android:text="@string/clear_button" />
+
+		<EditText android:id="@+id/s2t" android:hint="Your spoken words will appear here. Pls be patient."
+				  android:layout_width="wrap_content" android:layout_marginLeft="15px"
+				  android:layout_height="wrap_content"/>
+		<Button android:id="@+id/spkbtn" android:layout_marginLeft="15px"
+			android:layout_width="wrap_content" android:background="@drawable/r2"
+			android:layout_height="wrap_content"
+			android:clickable="true"
+			android:onClick="startListening"
+			android:longClickable="true"
+			android:text="Speak"/>
+		<Button android:id="@+id/helpcmd"
+				android:layout_width="wrap_content" android:layout_marginRight="15px"
+				android:layout_height="wrap_content" android:background="@drawable/questionmark"
+				android:onClick="showHelp"
+			/>
+		<Button android:id="@+id/runcmd"
+			android:layout_width="wrap_content" android:layout_marginLeft="15px"
+			android:layout_height="wrap_content" android:background="@drawable/r2"
+			android:onClick="startTalking"
+			android:text="Execute"/>
+
+
+		<!-- handled by Execute Command
+		<Button android:id="@+id/fetch_contacts" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onFetchContactsClick"
+				android:text="@string/fetch_contacts_button" />
+
+		<Button android:id="@+id/fetch_accounts" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onFetchUsersClick"
+				android:text="@string/fetch_accounts_button" />
+				-->
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+				  android:layout_height="wrap_content">
+		<Button android:id="@+id/readresult"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="readResult" android:background="@drawable/rr"
+			android:text="Read Result"/>
+		<!--
+		<Button android:id="@+id/langdemo"
+				android:layout_width="wrap_content" android:layout_marginLeft="15px"
+				android:layout_height="wrap_content" android:background="@drawable/r2"
+				android:onClick="goMultiLingual"
+				android:text="Translator"/>
+		<blink xmlns:android="http://schemas.android.com/apk/res/android"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"> -->
+		<TextView android:id="@+id/pushMsg" android:textColor="#FFFF00" android:layout_marginLeft="300px"
+				  android:textSize="12pt" android:background="@drawable/roundedcorner"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<!-- </blink> -->
+	</LinearLayout>
+
+	<ListView android:id="@+id/contacts_list" android:layout_width="match_parent"
+	          android:layout_height="match_parent" android:textColor="#ff0000"
+			  android:background="@drawable/listview_border"
+		/>
+</LinearLayout>

@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:3:11-38
+		INJECTED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml
+		INJECTED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:6:11-36
+		INJECTED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml
+		INJECTED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:5:11-34
+		INJECTED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml
+		INJECTED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:4:11-49
+uses-sdk
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:8:5-10:40
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:10:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:9:9-35
+uses-feature#0x00020000
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:12:5-14:34
+	android:glEsVersion
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:13:9-41
+	android:required
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:14:9-32
+permission#com.lfg.mobileang.C2D_MESSAGE
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:21:5-23:46
+	android:protectionLevel
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:22:9-53
+uses-permission#com.lfg.mobileang.C2D_MESSAGE
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:27:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:28:22-77
+application
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:30:5-78:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\paragrt\Desktop\Android\MobileANG\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:33:9-41
+	android:manageSpaceActivity
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:34:9-87
+	android:icon
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:32:9-43
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:31:9-37
+activity#com.lfg.mobileang.MainActivity
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:37:9-41:20
+	android:label
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:39:13-45
+	android:theme
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:40:13-71
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:38:13-41
+activity#com.lfg.mobileang.SpeechActivity
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:42:9-51:20
+	android:label
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:44:13-48
+	android:parentActivityName
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:45:13-55
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:43:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:47:17-68
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:49:17-76
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:49:27-74
+activity#com.lfg.mobileang.ANGAppActivity
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:52:9-56:20
+	android:label
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:54:13-44
+	android:parentActivityName
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:55:13-55
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:53:13-43
+receiver#com.example.pterede.mywidget.ExampleAppWidgetProvider
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:58:9-68:20
+	android:label
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:60:13-39
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:59:13-81
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:61:13-63:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:62:17-83
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:62:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:65:13-67:55
+	android:resource
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:67:17-53
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:66:17-58
+service#com.example.pterede.mywidget.UpdateWidgetService
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:70:9-83
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:70:18-81
+activity#com.lfg.mobileang.SensorActivity
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:72:9-73:20
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:72:19-49
+activity#com.lfg.mobileang.OPENGLESActivity
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:74:9-75:20
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:74:19-51
+activity#com.lfg.mobileang.CarromActivity
+ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:76:9-77:20
+	android:name
+		ADDED from C:\Users\paragrt\Desktop\Android\MobileANG\AndroidManifest.xml:76:19-49

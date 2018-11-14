@@ -1,0 +1,233 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/tableLayout1"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+android:stretchColumns="1"
+    >
+
+    <!-- 2 columns -->
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="AXIS"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView2
+            android:text="X Axis"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView2
+            android:text="Y Axis"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView2
+            android:text="Z Axis"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+            android:id="@+id/textView1"
+            android:text="Gravity"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/gsensor_x"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/gsensor_y"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/gsensor_z"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="Accelerometer"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/asensor_x"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/asensor_y"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/asensor_z"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="Gyroscope"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/ysensor_x"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/ysensor_y"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/ysensor_z"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="TEMPERATURE"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView android:layout_span="3"
+            android:id="@+id/temp" android:hint="N/A"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="HUMIDITY"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView android:layout_span="3"
+            android:id="@+id/hum" android:hint="N/A"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="PRESSURE"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView android:layout_span="3"
+            android:id="@+id/press" android:hint="N/A"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="DIRECTION"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/osensor_x"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/osensor_y"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/osensor_z"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="PROXIMITY"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView android:layout_span="3"
+                                                 android:id="@+id/proximity" android:hint="N/A"
+                                                 android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="LIGHT"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView android:layout_span="3"
+                                                 android:id="@+id/light" android:hint="N/A"
+                                                 android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <com.example.pterede.mywidget.MyTextView2
+
+            android:text="Magnetic Field"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/msensor_x"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/msensor_y"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <com.example.pterede.mywidget.MyTextView
+            android:id="@+id/msensor_z"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </TableRow>
+</TableLayout>

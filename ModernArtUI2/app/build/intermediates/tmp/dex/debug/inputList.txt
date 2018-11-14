@@ -1,0 +1,5 @@
+C:\Users\paragrt\Desktop\Android\ModernArtUI2\app\build\intermediates\classes\debug
+C:\Users\paragrt\Desktop\Android\ModernArtUI2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-704a340b9af7bcb3c02ad95d5aa67056e7d6206d.jar
+C:\Users\paragrt\Desktop\Android\ModernArtUI2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-891ecc15f495b8487035a3d59eeffa04bf8c8c76.jar
+C:\Users\paragrt\Desktop\Android\ModernArtUI2\app\build\intermediates\pre-dexed\debug\classes-38b863f08035416f860d778243a70e6263edb4ca.jar
+C:\Users\paragrt\Desktop\Android\ModernArtUI2\app\build\intermediates\pre-dexed\debug\classes-e405c38b621dd21e9916385dd8d325b51b363796.jar
