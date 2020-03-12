@@ -4,4 +4,6 @@ Interesting Apps
 3)Sudoku...Tied it to the Sudoku Solver puzzles algorith.
 More to come...
 Knights Tour, Word Boggle and Word Ladder animation by wiring up the Non-UI solution to the Graphic one for display.
+<kbd>
 <img src="carrom-video2.gif" />
+  </kbd>
