@@ -9,7 +9,7 @@ A game like billiards...The project showcases the use of painting and animation 
 <kbd><img src="Xlate.png" width="60%" height="60%"/></kbd>
 <p/>
 
-## 3)Sudoku...Tied it to the Sudoku Solver puzzles algorith.
+## 3)Sudoku...Tied it to the Sudoku Solver puzzles algorithm.
 <kbd><img src="Sudoku2.png" width="60%" height="60%"/></kbd>
 <p/>
 ## 4) More to come...
