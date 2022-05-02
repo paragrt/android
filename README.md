@@ -5,7 +5,7 @@ A game like billiards...The project showcases the use of painting and animation 
 <kbd><img src="carrom-video2.gif" width="60%" height="60%"/></kbd>
 <p/>
 
-## 2)Xlate, a simple speech to tect and text to speech translator using the API from Google.
+## 2)Xlate, a simple speech to text and text to speech translator using the API from Google.
 <kbd><img src="Xlate.png" width="60%" height="60%"/></kbd>
 <p/>
 
